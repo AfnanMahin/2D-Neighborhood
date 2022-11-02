@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Text
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Text
+  - Player
+  - House
+  - Bush
+  - Tree
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3580310761
+    locked: 0
+  - name: Fence
+    uniqueID: 3330865645
+    locked: 0
+  - name: Tree
+    uniqueID: 2401934075
+    locked: 0
+  - name: Bush
+    uniqueID: 3958211419
+    locked: 0
+  - name: House
+    uniqueID: 2519869475
+    locked: 0
+  - name: Ground
+    uniqueID: 3141839631
+    locked: 0
+  - name: Player
+    uniqueID: 1668149359
+    locked: 0
+  - name: Tree Front
+    uniqueID: 35195565
+    locked: 0
+  - name: Bush Front
+    uniqueID: 34718689
+    locked: 0
