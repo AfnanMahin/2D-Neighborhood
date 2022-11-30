@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     private Animator anim;
 
+    public ParticleSystem Dust;
+
     void Start() 
     {
         anim = GetComponent<Animator>();
@@ -52,6 +54,8 @@ public class PlayerController : MonoBehaviour
     
         if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
         {
+            CreateDust();
+            
             anim.SetTrigger("takeOff");
 
             rb.velocity = Vector2.up * jumpForce;
@@ -65,5 +69,10 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("isJumping", true);
         }
+    }
+
+    void CreateDust()
+    {
+        Dust.Play();
     }
 }

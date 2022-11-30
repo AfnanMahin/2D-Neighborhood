@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/2D Neighbourhood/Scenes/Demo/Main Scene.unity
-    guid: 84a7d1eac63d671499fe2d6abda99bed
+    path: Assets/2D Neighborhood/Scenes/Demo/Main Scene.unity
+    guid: 6f8d20fa2e1e1b640a14420e104544fc
   - enabled: 1
     path: Assets/2D Neighborhood/Scenes/Demo/House 1 Scene.unity
     guid: 40eeedfc4a106534f8efa82e06efaeca

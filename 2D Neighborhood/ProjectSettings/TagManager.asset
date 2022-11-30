@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Text
+  - Dust
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -17,8 +19,8 @@ TagManager:
   - House
   - Bush
   - Tree
-  - 
-  - 
+  - Post processing
+  - Dust
   - 
   - 
   - 
@@ -68,4 +70,7 @@ TagManager:
     locked: 0
   - name: Bush Front
     uniqueID: 34718689
+    locked: 0
+  - name: Dust
+    uniqueID: 1596864563
     locked: 0
