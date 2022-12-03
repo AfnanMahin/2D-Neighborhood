@@ -53,12 +53,12 @@ public class PlayerController : MonoBehaviour
         }
     
         if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
-        {
-            CreateDust();
-            
+        {          
             anim.SetTrigger("takeOff");
 
             rb.velocity = Vector2.up * jumpForce;
+
+            CreateDust();
         }
 
         if(isGrounded == true)
