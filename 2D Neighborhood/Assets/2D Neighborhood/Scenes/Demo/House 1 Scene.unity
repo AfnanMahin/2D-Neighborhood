@@ -826,8 +826,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorPos: {fileID: 1493189247}
-  width: 1
-  height: 4.5
+  DoorWidth: 1
+  DoorHeight: 4.664241
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128

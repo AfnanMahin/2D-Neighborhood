@@ -6,8 +6,8 @@ public class DoorOpener : MonoBehaviour
 {
     private bool playerDeceted;
     public Transform doorPos;
-    public float width;
-    public float height;
+    public float DoorWidth;
+    public float DoorHeight;
 
     public LayerMask whatIsPlayer;
 
@@ -23,7 +23,7 @@ public class DoorOpener : MonoBehaviour
 
     private void Update() 
     {
-        playerDeceted = Physics2D.OverlapBox(doorPos.position, new Vector2(width, height), 0, whatIsPlayer);
+        playerDeceted = Physics2D.OverlapBox(doorPos.position, new Vector2(DoorWidth, DoorHeight), 0, whatIsPlayer);
         
         if(playerDeceted == true)
         {
@@ -33,11 +33,4 @@ public class DoorOpener : MonoBehaviour
             }
         }
     }
-
-    private void OnDrawGizmosSelected() 
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireCube(doorPos.position, new Vector3(width, height, 1));
-    }
-
 }
